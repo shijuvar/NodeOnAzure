@@ -1,0 +1,19 @@
+html
+head
+    title Index
+body
+    h1 Favourite Blogs
+    form    
+        table(border="1")
+            tr
+                th Author 
+                th Url
+                th Technology               
+
+                each item in blogs
+                    tr
+                        td #{item.author}  
+                        td 
+                            a(href ='#{item.url}') #{item.url}                       
+                        td #{item.technology} 
+                                                    
