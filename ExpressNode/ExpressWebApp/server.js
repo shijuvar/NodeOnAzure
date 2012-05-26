@@ -32,7 +32,7 @@ function Blog(author,url,technology) {
   this.technology=technology;
 }
 
-// Technologies
+// Blogs
 var blogs = [
     new Blog('Shiju Varghese','http://weblogs.asp.net/shijuvarghese/','Windows Azure')
   , new Blog('Glenn Block','http://codebetter.com/glennblock/','Node on Azure')
@@ -46,6 +46,8 @@ var blogs = [
 app.get('/', function(req, res){
   res.render('index', {title:'home',blogs: blogs });
 });
-
+app.get('/api', function(req, res){
+  res.json(blogs);
+});
 app.listen(port);
 console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
