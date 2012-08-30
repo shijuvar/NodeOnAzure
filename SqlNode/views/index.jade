@@ -1,0 +1,19 @@
+h1= title
+p 
+- if(categories.length)  
+    table(border="1")
+        tr
+            th Name
+            th Description    
+            th Actions    
+                each cat in categories
+                    tr
+                        td #{cat.Name}
+                        td #{cat.Description}
+                        td 
+                            a(href ='/category/edit/'+ '#{cat.ID}') Edit |    
+                            a(href ='/category/delete/' + '#{cat.ID}') Delete         
+- else
+    p Category list is empty
+p
+    a(href="/category/create") Create Category
