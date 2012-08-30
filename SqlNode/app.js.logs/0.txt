@@ -1,4 +1,0 @@
-[90mGET / [32m200 [90m300ms - 462[0m
-[90mGET /category/edit/23 [32m200 [90m257ms - 437[0m
-[90mPOST /category/update [36m302 [90m341ms - 108[0m
-[90mGET /category [32m200 [90m26ms - 462[0m
