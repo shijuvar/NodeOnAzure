@@ -1,4 +1,8 @@
 NodeJS samples for Windows Azure
+================================
 
-<b>Blog Posts<b>
-http://weblogs.asp.net/shijuvarghese/archive/2012/05/26/developing-and-deploying-node-js-express-web-app-on-windows-azure.aspx
+Blog Posts
+----------
+* [CRUD demo in Node.js with Windows Azure SQL Database/SQL Server] (http://weblogs.asp.net/shijuvarghese/archive/2012/08/30/crud-demo-in-node-js-with-windows-azure-sql-database.aspx)
+* [Developing and Deploying Node.js Express Web App on Windows Azure] (http://weblogs.asp.net/shijuvarghese/archive/2012/05/26/developing-and-deploying-node-js-express-web-app-on-windows-azure.aspx)
+
